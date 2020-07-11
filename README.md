@@ -35,7 +35,7 @@
     ```
 
 4. App.js에서 Food를 부르는 방법
-    ```react
+    ```html
     function Food(prop.fav){
         return <h1>I like {fav}</h1>
     }
@@ -43,4 +43,22 @@
         return <h1>I like {fav}</h1>
     }
     ```
-    둘은 같은 의미다. 
+    둘은 같은 의미임.
+    
+5. Map and Array
+    map은 array를 가지는 javascript function임.
+    map은 array의 각각 item에서 function을 실행함.
+    (= jquery의 each 역할 같음)
+    ```html
+    const friends = ["a","b","c","d"];
+    friends.map(current=>{
+        console.log(current);
+        return 0
+    });
+    ```
+    console은 각각의 item명을 반환함.
+    ```html
+    friends.map(function(friend){ //프랜즈의 아이템 각각에 접속해서 펑션(아규먼트)을 실행해라. 
+        return friend + "😀";
+    });
+    ```
