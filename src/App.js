@@ -21,6 +21,7 @@ class App extends React.Component{
     );
   }
 /*
+
   react의 life cycle method (component의 생성과 삭제)
   1. Mounting = 태어남
    - constructor() : javascript기반, 처음 웹에 들어갈때

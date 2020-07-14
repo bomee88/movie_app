@@ -178,4 +178,8 @@
    > * 매순간 내가 setState를 호출할때마다 react는 새로운 state와 함께 render function을 호출한다!
    > * 내가 오직 seState를 호출할 때만! 
         
-   오늘은 여기까지~ 그럼~ 안녕!      
+7. Mounting - Unmounting 
+    > 리액트의 life cycle method
+    > * constructor()
+    > * componentDidMount() 
+    > * componentDidUpdate()
